@@ -177,7 +177,7 @@ To calculate evaluation metrics we performed the following steps:
 
 We evaluated the performance of each model using the *micro-averaged F1-score*, a widely used performance metric in machine learning. The micro-averaged F1 score is a metric that makes sense for multi-class data distributions. It is a suitable performance metric for imbalanced datasets because it takes into account both precision and recall of the minority class.
 
-<u>For example<u>:  In the case of our earthquake damage prediction dataset, the majority class (level 2 damage) has significantly more instances than the other two classes (level 1 and 3 damage), making it an imbalanced dataset. In such cases, accuracy can be misleading because it may be high due to the high number of correctly classified majority class instances, while the minority class instances are misclassified. F1-score considers both precision and recall, and micro-averaging of F1-score provides an overall score that takes into account the performance of all classes.
+<u>For example</u>:  In the case of our earthquake damage prediction dataset, the majority class (level 2 damage) has significantly more instances than the other two classes (level 1 and 3 damage), making it an imbalanced dataset. In such cases, accuracy can be misleading because it may be high due to the high number of correctly classified majority class instances, while the minority class instances are misclassified. F1-score considers both precision and recall, and micro-averaging of F1-score provides an overall score that takes into account the performance of all classes.
 
 ### 3.7. Making Predictions
 After having trained a machine learning model, you can use it to make predictions on our own data.
