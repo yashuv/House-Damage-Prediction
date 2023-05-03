@@ -10,7 +10,7 @@
 
 Based on aspects of building location and construction, the goal is to predict the level of damage to buildings caused by the `2015 Gorkha earthquake in Nepal`.
 
-<img src = "earthquake.jpg"/>
+<img src = "highlights.jpg" width="50%"/>
 
 <a href="http://www.kathmandulivinglabs.org/">Kathmandu Living Labs</a> and the <a href="https://cbs.gov.np/"> Central Bureau of Statistics</a> conducted surveys to collect data on earthquake impacts, household conditions, and socio-economic-demographic statistics. This survey is one of the largest post-disaster datasets ever collected, and it contains valuable information.
 
