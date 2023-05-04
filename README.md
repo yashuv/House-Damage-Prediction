@@ -58,7 +58,7 @@ Attributes of our datasets along with their description are listed below:
   * **other_floor_type** (type: categorical): type of construction used in higher than
   the ground floors** (except for the roof). Possible values: j, q, s, x.
   * **position** (type: categorical): position of the building. Possible values: j, o, s, t.
-  * **plan_configuration (type: categorical): building plan configuration. Possible
+  * **plan_configuration** (type: categorical): building plan configuration. Possible
   values: a, c, d, f, m, n, o, q, s, u.
   * has_superstructure_adobe_mud** (type: binary): flag variable that indicates if
   the superstructure was made of Adobe/Mud.
@@ -75,7 +75,7 @@ Attributes of our datasets along with their description are listed below:
   * **has_superstructure_timber** (type: binary): flag variable that indicates if the
   superstructure was made of Timber.
   * **has_superstructure_bamboo** (type: binary): flag variable that indicates if the
-  superstructure was made of Bamboo* .
+  superstructure was made of Bamboo.
   * **has_superstructure_rc_non_engineered** (type: binary): flag variable that
   indicates if the superstructure was made of non-engineered reinforced
   concrete .
@@ -158,12 +158,11 @@ Model selection and fitting is a critical step in the process of creating a math
 In our project, we applied various machine learning algorithms to predict the damage grade of buildings. The algorithms used for model training and evaluation included:
  * Random Forest Classifier
  * Decision Tree Classifier
- * XGBoost, KMeansClassifier
+ * XGBoost
+ * KMeansClassifier
  * Softmax Regression
  
 These models were trained on our dataset to predict the level of damage to buildings caused by earthquakes.
-
-We used `Logistic Regression` model in this project.
 
 ### 3.6. Performance evaluation
 It is an important step in the model building process, as it allows you to assess the effectiveness of the model and make any necessary adjustments to improve its performance. It is also important to evaluate the performance of a model on unseen data, as this can provide a more realistic assessment of its performance on real-world tasks. 
