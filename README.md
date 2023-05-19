@@ -3,8 +3,8 @@
 
 **Setup Instructions** <br>
 1. Create four folders inside the notebook/data directory. Name the folders SMOTE, Original, OverSampling, and UnderSampling. <br>
-2. Open the EDA_and_Preprocessing notebook and run all of the cells. <br>
-3. Open the Mode_Training_and_Evaluation notebook and run all of the cells. 
+2. Execute notebook/EDA_and_Preprocessing.ipynb notebook. It performs necessary EDA and saves the preprocessed datasets to corresponding folder. <br>
+3. Execute the remaining two model_evaluation notebook. They evaluate models performance on different datasets. 
 
 ## 1. `Overview`
 
